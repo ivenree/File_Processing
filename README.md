@@ -30,4 +30,3 @@ DOES NOT overwrite <stat-file-name> each time it is run; instead, have it append
 (d)	The number of disk writes, or times your program had to write a block of data to disk from a buffer.
 (e)	The time that your program took to execute the Quicksort. Put two calls to the standard Java timing method “System.currentTimeMillis()” in your program, one when you call the sort function, and one when you return from the sort function. This method returns a long value. The difference between the two values will be the total runtime in milliseconds. You should ONLY time the sort, and not the time to write the program output as described above.
 
-
